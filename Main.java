@@ -75,8 +75,64 @@ public class Main
     }
 
     //prob 6
+    String a = "A";
+    String b = "B";
+    String c = "C";
+    String d = "D";
+    String f = "F";
 
+    System.out.println("Enter a letter grade: ");
+    String input7 = scan.next();
+    if(input7.equals(a))
+    {
+      System.out.println("90-100");
+    }
+    else if(input7.equals(b))
+    {
+      System.out.println("80-90");
+    }
+    else if(input7.equals(c))
+    {
+      System.out.println("70-80");
+    }
+    else if(input7.equals(d))
+    {
+      System.out.println("60-70");
+    }
+    else if(input7.equals(f))
+    {
+      System.out.println("0-60");
+    }
+    else
+    {
+      System.out.println("Invalid letter grade");
+    }
     
+    //prob 7
+
+    int firstNum = (int) (Math.random() * 51);
+    int secondNum = (int) ((Math.random() * 51)+51);
+    System.out.println(firstNum + " + " + secondNum + " = ?");
+    int input8 = scan.nextInt();
+
+    if (input8 == firstNum+secondNum)
+    {
+      System.out.println("Correct!");
+    }
+    else
+    {
+      System.out.println("Wrong!");
+    }
+
+    //prob 8
+
+    System.out.println("What is the temperature?")
+    int input9 = scan.nextInt();
+
+    if (input9 <= 99 && input9 >= 97)
+    {
+      System.out.println("Temperature is OK");
+    }
 
 
 
