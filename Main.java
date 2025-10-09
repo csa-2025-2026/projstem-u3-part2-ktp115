@@ -126,12 +126,16 @@ public class Main
 
     //prob 8
 
-    System.out.println("What is the temperature?")
+    System.out.println("What is the temperature?");
     int input9 = scan.nextInt();
 
     if (input9 <= 99 && input9 >= 97)
     {
       System.out.println("Temperature is OK");
+    }
+    else
+    {
+      System.out.println("NOT NORMAL");
     }
 
 
